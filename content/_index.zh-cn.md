@@ -1,6 +1,6 @@
 ---
-title: "Welcome to Blowfish! :tada:"
-description: "This page was built using the Blowfish theme for Hugo."
+title: "欢迎来到 Blowfish! :tada:"
+description: "此页面是使用 Hugo 的 Blowfish 主题搭建的"
 ---
 
 
@@ -9,12 +9,12 @@ description: "This page was built using the Blowfish theme for Hugo."
     {{< icon "triangle-exclamation" >}}
   </span>
   <span class="flex items-center justify-between grow dark:text-neutral-300">
-    <span class="prose dark:prose-invert">This is a demo of the <code id="layout">background</code> layout.</span>
+    <span class="prose dark:prose-invert"> 这是 <code id="layout">background</code> 的样式示例。</span>
     <button
       id="switch-layout-button"
       class="px-4 !text-neutral !no-underline rounded-md bg-primary-600 hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
     >
-      Switch layout &orarr;
+      切换 layout &orarr;
     </button>
   </span>
 </div>
