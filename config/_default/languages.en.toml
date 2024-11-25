@@ -2,7 +2,7 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Graval504 Blog"
+title = "Blowfish"
 
 [params]
   displayName = "EN"
@@ -15,12 +15,12 @@ title = "Graval504 Blog"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 # [params.author]
-#   name = "Graval504"
-#   email = "graval504@seoultech.ac.kr"
+#   name = "Your name here"
+#   email = "youremail@example.com"
 #   image = "img/blowfish_logo.png"
 #   imageQuality = 96
-#   headline = "TestHeadline"
-#   bio = "TestBio"
+#   headline = "I'm only human"
+#   bio = "A little bit about you"
 #   links = [
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
