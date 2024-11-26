@@ -1,28 +1,28 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+languageCode = "ko"
+languageName = "Korean"
 weight = 1
-title = "Blowfish"
+title = "GravalBlog"
 
 [params]
-  displayName = "EN"
-  isoCode = "en"
+  displayName = "KR"
+  isoCode = "ko"
   rtl = false
   dateFormat = "2 January 2006"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
 
-# [params.author]
-#   name = "Your name here"
-#   email = "youremail@example.com"
-#   image = "img/blowfish_logo.png"
-#   imageQuality = 96
-#   headline = "I'm only human"
-#   bio = "A little bit about you"
-#   links = [
-#     { email = "mailto:hello@your_domain.com" },
+[params.author]
+  name = "Graval504"
+  email = "graval504@seoultech.ac.kr"
+  image = "img/blowfish_logo.png"
+  imageQuality = 96
+  # headline = "I'm only human"
+  # bio = "A little bit about you"
+  links = [
+    # { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
 #     { apple = "https://www.apple.com" },
@@ -35,7 +35,7 @@ title = "Blowfish"
 #     { facebook = "https://facebook.com/username" },
 #     { flickr = "https://www.flickr.com/photos/username/" },
 #     { foursquare = "https://foursquare.com/username" },
-#     { github = "https://github.com/username" },
+    { github = "https://github.com/graval504" },
 #     { gitlab = "https://gitlab.com/username" },
 #     { google = "https://www.google.com/" },
 #     { hashnode = "https://username.hashnode.dev" },
@@ -56,9 +56,9 @@ title = "Blowfish"
 #     { slack = "https://workspace.url/team/userid" },
 #     { snapchat = "https://snapchat.com/add/username" },
 #     { soundcloud = "https://soundcloud.com/username" },
-#     { spotify = "https://open.spotify.com/user/userid" },
+#     { spotify = "https://open.spotify.com/user/31dabfmrcv32t73ldhmkkobhlflm" },
 #     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
-#     { steam = "https://steamcommunity.com/profiles/userid" },
+#     { steam = "https://steamcommunity.com/id/gravel504" },
 #     { telegram = "https://t.me/username" },
 #     { threads = "https://www.threads.net/@username" },
 #     { tiktok = "https://tiktok.com/@username" },
@@ -70,4 +70,4 @@ title = "Blowfish"
 #     { youtube = "https://youtube.com/username" },
 #     { ko-fi = "https://ko-fi.com/username" },
 #     { codeberg = "https://codeberg.org/username"},
-#   ]
+  ]

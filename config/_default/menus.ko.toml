@@ -10,47 +10,43 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "Blog"
-#  pageRef = "posts"
-#  weight = 10
+[[main]]
+ name = "Posts"
+ pageRef = "posts"
+ weight = 10
 
-#[[main]]
-#  name = "Parent"
-#  weight = 20
+[[main]]
+ name = "AI"
+ parent = "Categories"
+ pageRef = "categories/ai"
+ weight = 20
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+[[main]]
+ name = "Programming"
+ parent = "Categories"
+ pageRef = "categories/programming"
+ weight = 20
 
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[subnavigation]]
+# [[subnavigation]]
 #  name = "An interesting topic"
 #  pageRef = "tags/interesting-topic"
 #  weight = 10
 
-#[[subnavigation]]
+# [[subnavigation]]
 #  name = "My Awesome Category"
 #  pre = "github"
 #  pageRef = "categories/awesome"
 #  weight = 20
 
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
+[[main]]
+ name = "Categories"
+ pageRef = "categories"
+ weight = 20
 
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
+[[main]]
+ name = "Resume"
+ pageRef = "resume"
+ weight = 30
 
 
 # -- Footer Menu --
@@ -58,12 +54,12 @@
 # the copyright notice. Configure as per the main menu above.
 
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 10
 
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+[[footer]]
+  name = "Resume"
+  pageRef = "resume"
+  weight = 20
