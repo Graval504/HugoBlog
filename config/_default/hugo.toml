@@ -25,6 +25,7 @@ enableEmoji = true
   anchor = 'Center'
 
 [taxonomies]
+  posts = "posts"
   category = "categories"
   resume = "resume"
 
